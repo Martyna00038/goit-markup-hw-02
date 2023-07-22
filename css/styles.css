@@ -1,0 +1,131 @@
+:root {
+    --brand-color: #2e2f42;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--brand-color);
+}
+
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: var(--brand-color);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.16;
+}
+
+.logo-footer {
+    color: #f4f4fd;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo-web {
+    color: #4d5ae5;
+}
+
+.menu,
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.menu {
+    font-weight: 500;
+}
+
+.contacts {
+    color: #434455;
+}
+
+.hero {
+    background-color: var(--brand-color);
+    color: #ffffff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+}
+
+.button-portfolio .button-studio {
+    cursor: pointer;
+}
+
+.button-studio {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.button-portfolio {
+    background-color: #e7e9fc;
+    color: #4d5ae5;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: #404bbf;
+    color: #ffffff;
+}
+
+.offers .offer {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.offers .offer .offer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.what-are-we-doing,
+.our-team {
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.portfolio-elements .portfolio-elements-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-elements .portfolio-elements-category {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.footer {
+    background-color: var(--brand-color);
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+}
