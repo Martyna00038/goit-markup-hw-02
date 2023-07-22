@@ -16,6 +16,11 @@ body {
     line-height: 1.16;
 }
 
+.logo-header:hover,
+.logoheader:focus {
+    color: #434455;
+}
+
 .logo-footer {
     color: #f4f4fd;
     text-decoration: none;
@@ -38,8 +43,18 @@ body {
     font-weight: 500;
 }
 
+.menu:hover,
+.menu:focus {
+    color: #434455;
+}
+
 .contacts {
     color: #434455;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #6d6e7b;
 }
 
 .hero {
