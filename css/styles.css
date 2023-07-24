@@ -1,10 +1,18 @@
 :root {
     --brand-color: #2e2f42;
+    --brand-color-2: #434455;
+    --brand-logo-color: #4d5ae5;
+    --active-hover-color: #404bbf;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color);
+    background-color: #ffffff;
+}
+
+.list {
+    list-style: none;
 }
 
 .logo-header {
@@ -14,21 +22,23 @@ body {
     text-decoration: none;
     font-size: 18px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 .logo-header:hover,
 .logoheader:focus {
-    color: #434455;
+    color: var(--brand-color-2);
 }
 
 .logo-footer {
     color: #f4f4fd;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .logo-web {
-    color: #4d5ae5;
+    color: var(--brand-logo-color);
 }
 
 .menu,
@@ -37,28 +47,34 @@ body {
     line-height: 1.5;
     text-decoration: none;
     font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .menu {
     font-weight: 500;
+    color: var(--brand-color);
 }
 
 .menu:hover,
 .menu:focus {
-    color: #434455;
+    color: var(--active-hover-color);
 }
 
 .contacts {
-    color: #434455;
+    color: var(--brand-color-2);
 }
 
 .contacts:hover,
 .contacts:focus {
-    color: #6d6e7b;
+    color: var(--active-hover-color);
 }
 
 .hero {
     background-color: var(--brand-color);
+    letter-spacing: 0.04em;
+}
+
+.hero-text {
     color: #ffffff;
     text-align: center;
     font-size: 56px;
@@ -66,30 +82,37 @@ body {
     line-height: 1.07;
 }
 
-.button-portfolio .button-studio {
-    cursor: pointer;
-}
-
 .button-studio {
-    background-color: #4d5ae5;
+    background-color: var(--brand-logo-color);
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.button-studio:hover,
+.button-studio:focus {
+    background-color: var(--active-hover-color);
 }
 
 .button-portfolio {
     background-color: #e7e9fc;
-    color: #4d5ae5;
+    color: var(--brand-logo-color);
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
     text-align: center;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-    background-color: #404bbf;
+    background-color: var(--active-hover-color);
     color: #ffffff;
 }
 
@@ -97,12 +120,15 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--brand-color);
+    letter-spacing: 0.02em;
 }
 
 .offers .offer .offer-description {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--brand-color-2);
+    letter-spacing: 0.02em;
 }
 
 .what-are-we-doing,
@@ -111,6 +137,12 @@ body {
     line-height: 1.1;
     font-weight: 700;
     text-align: center;
+    color: var(--brand-color);
+    letter-spacing: 0.02em;
+}
+
+.our-team-section {
+    background-color: #f4f4fd;
 }
 
 .name {
@@ -118,29 +150,39 @@ body {
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
+    color: var(--brand-color);
+    letter-spacing: 0.02em;
 }
 
 .position {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    color: var(--brand-color-2);
+    letter-spacing: 0.02em;
 }
 
 .portfolio-elements .portfolio-elements-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-elements .portfolio-elements-category {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--brand-color-2);
+    letter-spacing: 0.02em;
 }
 
 .footer {
     background-color: var(--brand-color);
+}
+
+.footer-text {
     color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
